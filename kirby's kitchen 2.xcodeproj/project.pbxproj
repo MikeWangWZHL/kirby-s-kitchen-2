@@ -14,6 +14,10 @@
 		3522BDF225A0E6A0009E1723 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3522BDF125A0E6A0009E1723 /* Assets.xcassets */; };
 		3522BDF525A0E6A0009E1723 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3522BDF425A0E6A0009E1723 /* Preview Assets.xcassets */; };
 		3522BDF825A0E6A0009E1723 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3522BDF625A0E6A0009E1723 /* LaunchScreen.storyboard */; };
+		3522BE0225A0E741009E1723 /* Saving+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3522BE0025A0E741009E1723 /* Saving+CoreDataClass.swift */; };
+		3522BE0325A0E741009E1723 /* Saving+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3522BE0125A0E741009E1723 /* Saving+CoreDataProperties.swift */; };
+		3522BE0725A0ED7A009E1723 /* AddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3522BE0625A0ED7A009E1723 /* AddView.swift */; };
+		3522BE1425A0FEB3009E1723 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3522BE1325A0FEB3009E1723 /* ImagePicker.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +30,10 @@
 		3522BDF425A0E6A0009E1723 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		3522BDF725A0E6A0009E1723 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3522BDF925A0E6A0009E1723 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3522BE0025A0E741009E1723 /* Saving+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Saving+CoreDataClass.swift"; sourceTree = "<group>"; };
+		3522BE0125A0E741009E1723 /* Saving+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Saving+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		3522BE0625A0ED7A009E1723 /* AddView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddView.swift; sourceTree = "<group>"; };
+		3522BE1325A0FEB3009E1723 /* ImagePicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +50,8 @@
 		3522BDDC25A0E69F009E1723 = {
 			isa = PBXGroup;
 			children = (
+				3522BE0025A0E741009E1723 /* Saving+CoreDataClass.swift */,
+				3522BE0125A0E741009E1723 /* Saving+CoreDataProperties.swift */,
 				3522BDE725A0E69F009E1723 /* kirby's kitchen 2 */,
 				3522BDE625A0E69F009E1723 /* Products */,
 			);
@@ -61,6 +71,8 @@
 				3522BDE825A0E69F009E1723 /* AppDelegate.swift */,
 				3522BDEA25A0E69F009E1723 /* SceneDelegate.swift */,
 				3522BDEC25A0E69F009E1723 /* ContentView.swift */,
+				3522BE0625A0ED7A009E1723 /* AddView.swift */,
+				3522BE1325A0FEB3009E1723 /* ImagePicker.swift */,
 				3522BDF125A0E6A0009E1723 /* Assets.xcassets */,
 				3522BDF625A0E6A0009E1723 /* LaunchScreen.storyboard */,
 				3522BDF925A0E6A0009E1723 /* Info.plist */,
@@ -148,10 +160,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3522BE0725A0ED7A009E1723 /* AddView.swift in Sources */,
 				3522BDE925A0E69F009E1723 /* AppDelegate.swift in Sources */,
 				3522BDEB25A0E69F009E1723 /* SceneDelegate.swift in Sources */,
 				3522BDED25A0E69F009E1723 /* ContentView.swift in Sources */,
 				3522BDF025A0E69F009E1723 /* kirby_s_kitchen_2.xcdatamodeld in Sources */,
+				3522BE1425A0FEB3009E1723 /* ImagePicker.swift in Sources */,
+				3522BE0225A0E741009E1723 /* Saving+CoreDataClass.swift in Sources */,
+				3522BE0325A0E741009E1723 /* Saving+CoreDataProperties.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,7 +315,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "mikewang.kirby-s-kitchen-2";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mikewang.kirby-s-kitchen-2";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -320,7 +336,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "mikewang.kirby-s-kitchen-2";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mikewang.kirby-s-kitchen-2";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
